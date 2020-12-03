@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+/* FIXIERT ______________________________ FIXIERT */
+
+
+/* FONTS */
+@font-face {
+
+    font-family: 'CooperHewitt.Bold';
+    src: url(fonts/CooperHewitt-Bold.otf);
+    font-size: 100;
+}
+@font-face {
+
+        font-family: 'CooperHewitt.Book';
+        src: url(fonts/CooperHewitt-Book.otf);
+        font-size: 100;
+
+}
+
+/* BACKGROUND COLOR / MARGIN REMOVE*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+
+  background: #F7F7F5;
+
+}
+
+/* LOGO "Visual Art Gillen" */
+.LOGO_Visual_Art{
+  font-family: 'CooperHewitt.Bold';
+  font-size: 40px;
+  line-height: 45px;
+  text-transform: uppercase;
+  position:absolute;
+  top: 96px;
+  left: 157px;
+}
+.LOGO_Gillen{
+  font-family: 'CooperHewitt.Book';
+}
+
+/* Gelbes Rechteck */
+#Gelbes_Rechteck {
+  fill: rgba(251,204,56,1);
+}
+.Gelbes_Rechteck {
+  position: fixed;
+  overflow: visible;
+  width: 236px;
+  height: 27px;
+  left: 0px;
+  top: 370px;
+}
+
+/* Aufschrift BLOG */
+#BLOG {
+  left: 157px;
+  top: 358px;
+  position: fixed;
+  overflow: visible;
+  width: 152px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Courier Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(38,38,38,1);
+}
+
+/* Footer */
+#Gruppe_79 {
+  position: absolute;
+  width: 1680px;
+  height: 188.65px;
+  left: 0px;
+
+  overflow: visible;
+}
+#Pfad_30 {
+  fill: rgba(18,17,17,1);
+}
+.Pfad_30 {
+  overflow: visible;
+  position: absolute;
+  width: 1680px;
+  height: 188.65px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  border: 0;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  border: 0;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  border: 0;
+}
+
+#ZER010 {
+  left: 157px;
+  top: 53.65px;
+  position: absolute;
+  overflow: visible;
+  width: 353px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Cooper Hewitt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(252,252,252,1);
+  text-transform: uppercase;
+}
+#Datenschutzerklrung {
+  left: 157px;
+  top: 123.65px;
+  position: absolute;
+  overflow: visible;
+  width: 353px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Cooper Hewitt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(252,252,252,1);
+  text-transform: uppercase;
+}
+#_2020_GILLEN {
+  left: 1171px;
+  top: 123.65px;
+  position: absolute;
+  overflow: visible;
+  width: 353px;
+  white-space: nowrap;
+  text-align: right;
+  font-family: Cooper Hewitt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(252,252,252,1);
+  text-transform: uppercase;
+}
+#Impressum {
+  left: 157px;
+  top: 87.65px;
+  position: absolute;
+  overflow: visible;
+  width: 353px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Cooper Hewitt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(252,252,252,1);
+  text-transform: uppercase;
+}
+#Instagram {
+  position: absolute;
+  width: 27.763px;
+  height: 27.763px;
+  left: 1439.215px;
+  top: 69.119px;
+  overflow: visible;
+  fill: white;
+  border: 0;
+
+}
+#Pinterest {
+  position: absolute;
+  width: 27.763px;
+  height: 27.763px;
+  left: 1493.022px;
+  top: 69.119px;
+  overflow: visible;
+  fill: white;
+
+}
+
+
+
+/* FIXIERT ______________________________ FIXIERT */
+
+
+
+
+/* BEGINNING ARTICLE ______________________________ BEGINNING ARTICLE */
+
+
+/* Add a card effect for articles */
+.card {
+   margin-left: 400px;
+   margin-right: 160px;
+   align-content: center;
+}
+
+/* Article IMAGE */
+#Poster{
+    width: 100%;
+    height: 100%;
+    left: 400px;
+    object-fit: cover;
+    object-position: 0% 20%;
+    height:500px;
+
+  }
+
+  /* Slide */
+  .fakeimg figure img {
+    margin-left: -10px;
+    -webkit-transform: scale(.98);
+    transform: scale(.98);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+  }
+  .fakeimg figure:hover img {
+    margin-left: 0;
+  }
+#Poster3{
+      width: 100%;
+      height: 100%;
+      left: 400px;
+      object-fit: cover;
+      object-position: 0% 70%;
+      height:500px;
+    }
+
+    /* Slide */
+    .fakeimg figure img {
+    	margin-left: -10px;
+    	-webkit-transform: scale(.98);
+    	transform: scale(.98);
+    	-webkit-transition: .2s ease-in-out;
+    	transition: .2s ease-in-out;
+    }
+    .fakeimg figure:hover img {
+    	margin-left: 0;
+    }
+
+
+/* Article DATUM */
+.Datum{
+
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: rgba(38,38,38,1);
+
+  }
+
+/* Article DATUM LINE */
+#Date-Line {
+      stroke: rgba(38,38,38,1);
+      stroke-width: 5px;
+  }
+.Date-Line {
+      overflow: visible;
+      width: 96px;
+      margin-left: 10px;
+  }
+
+/* Article TITLE */
+p.Title:hover, p.Title:active{
+  color: rgba(251,204,56,1)
+
+}
+.Title{
+
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-right: 300px;
+    margin-left: 10px;
+    font-size: 25px;
+    line-height: 40px;
+    color: rgba(38,38,38,1);
+    cursor: pointer;
+
+  }
+
+/* Article TEXT */
+.Text{
+
+    text-align: left;
+    font-family: Cooper Hewitt;
+    font-weight: normal;
+    margin-top: 35px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(38,38,38,1);
+  }
+
+/* Article ENDLINE */
+#Endline {
+		fill: transparent;
+		stroke: rgba(38,38,38,1);
+		stroke-width: 2px;
+	}
+.Endline {
+      overflow: visible;
+  		margin-bottom: 100px;
+  		width: 1282.5px;
+  		left: 400px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+
+
+/* END ARTICLE ______________________________ END ARTICLE */
+
+
+
+
+</style>
+</head>
+
+
+
+<body>
+
+
+
+<p class="LOGO_Visual_Art">
+  Visual
+  <br>
+  Art
+  <br>
+  <span class="LOGO_Gillen">Gillen</span>
+  </p>
+
+<svg class="Gelbes_Rechteck">
+    <rect id="Gelbes_Rechteck"
+    rx="0" ry="0" x="0" y="0"
+    width="236"
+    height="27">
+		</rect>
+	 </svg>
+
+  <div id="BLOG">
+    <span>BLOG</span>
+	 </div>
+
+
+
+
+
+
+<div class="card">
+
+    <div class="fakeimg">
+
+   <figure><img id="Poster3" srcset="IMG/Poster3.jpg"
+    srcset="Poster3.png 1x, Poster3@2x.png 2x"></figure>
+
+    </div>
+
+
+    <p class="Datum">21.12.2020</p>
+    <svg class="Date-Line" viewBox="0 0 96 5">
+        <path id="Date-Line" d="M 0 0 L 96 0">
+        </path>
+    </svg>
+
+
+    <p class="Title"> Lorem ipsum dolor sit, consetetur sadipscing elitr</p>
+
+
+    <p class="Text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo</p>
+
+
+    <svg class="Endline" viewBox="0 0 1282.5 2">
+      <path id="Endline" d="M 0 0 L 1282.5 0">
+      </path>
+    </svg>
+
+  </div>
+
+
+
+<div class="card">
+
+    <div class="fakeimg">
+      <figure><img id="Poster" srcset="IMG/Poster.jpg"
+    srcset="Poster.png 1x, Poster@2x.png 2x"></figure>
+
+    </div>
+
+
+    <p class="Datum">25.11.2020</p>
+    <svg class="Date-Line" viewBox="0 0 96 5">
+        <path id="Date-Line" d="M 0 0 L 96 0">
+        </path>
+    </svg>
+
+
+    <p class="Title"> Sadipscing elitr, sed diam nonumy eirmod tempor </p>
+
+
+    <p class="Text">Lorem ipsum dolor sit amet, aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo</p>
+
+
+    <svg class="Endline" viewBox="0 0 1282.5 2">
+      <path id="Endline" d="M 0 0 L 1282.5 0">
+      </path>
+    </svg>
+
+  </div>
+
+
+
+<div class="card">
+
+        <div class="fakeimg">
+          <figure><img id="Poster" srcset="IMG/Poster2.jpg"
+        srcset="Poster2.png 1x, Poster2@2x.png 2x"></figure>
+       </div>
+
+
+        <p class="Datum">25.11.2020</p>
+        <svg class="Date-Line" viewBox="0 0 96 5">
+            <path id="Date-Line" d="M 0 0 L 96 0">
+            </path>
+        </svg>
+
+
+        <p class="Title"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</p>
+
+
+        <p class="Text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo</p>
+
+
+        <svg class="Endline" viewBox="0 0 1282.5 2">
+          <path id="Endline" d="M 0 0 L 1282.5 0">
+          </path>
+        </svg>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="Gruppe_79">
+    		<svg class="Pfad_30" viewBox="0 0 1680 188.65">
+    			<path id="Pfad_30" d="M 0 0 L 1680 0 L 1680 188.64990234375 L 0 188.64990234375 L 0 0 Z">
+    			</path>
+    		</svg>
+
+    		<div id="ZER010">
+    			<a href="https://www.zero10.at/">ZER010</a>
+    		</div>
+
+        <div id="Impressum">
+          <a href="Impressum.html">IMPRESSUM</a>
+        </div>
+
+    		<div id="Datenschutzerklrung">
+    			<a href="https://www.zero10.at/">DATENSCHUTZERKLÄRUNG</a>
+    		</div>
+
+    		<div id="_2020_GILLEN">
+    			<span>© 2020 GILLEN</span>
+    		</div>
+
+
+        <svg version="1.1" id="Instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+        <style type="text/css">
+        	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+        </style>
+        <path class="st0" d="M24,0C10.7,0,0,10.7,0,24s10.7,24,24,24s24-10.7,24-24S37.3,0,24,0z M18.7,11.3c1.4-0.1,1.8-0.1,5.3-0.1h0
+        	c3.5,0,3.9,0,5.3,0.1c1.4,0.1,2.3,0.3,3.1,0.6c0.8,0.3,1.6,0.8,2.3,1.5c0.7,0.7,1.1,1.4,1.5,2.3c0.3,0.8,0.5,1.7,0.6,3.1
+        	c0.1,1.4,0.1,1.8,0.1,5.3s0,3.9-0.1,5.3c-0.1,1.4-0.3,2.3-0.6,3.1c-0.3,0.8-0.8,1.6-1.5,2.3c-0.7,0.7-1.4,1.2-2.3,1.5
+        	c-0.8,0.3-1.7,0.5-3.1,0.6c-1.4,0.1-1.8,0.1-5.3,0.1c-3.5,0-3.9,0-5.3-0.1c-1.4-0.1-2.3-0.3-3.1-0.6c-0.8-0.3-1.6-0.8-2.3-1.5
+        	c-0.7-0.7-1.1-1.4-1.5-2.3c-0.3-0.8-0.5-1.7-0.6-3.1c-0.1-1.4-0.1-1.8-0.1-5.3s0-3.9,0.1-5.3c0.1-1.4,0.3-2.3,0.6-3.1
+        	c0.3-0.8,0.8-1.6,1.5-2.3c0.7-0.7,1.4-1.1,2.3-1.5C16.4,11.6,17.4,11.3,18.7,11.3z"/>
+        <path class="st0" d="M22.9,13.5c0.2,0,0.5,0,0.7,0l0.4,0c3.4,0,3.8,0,5.2,0.1c1.2,0.1,1.9,0.3,2.4,0.4c0.6,0.2,1,0.5,1.5,1
+        	c0.4,0.4,0.7,0.9,1,1.5c0.2,0.5,0.4,1.1,0.4,2.4c0.1,1.3,0.1,1.8,0.1,5.2c0,3.4,0,3.8-0.1,5.2c-0.1,1.2-0.3,1.9-0.4,2.4
+        	c-0.2,0.6-0.5,1-1,1.5c-0.4,0.4-0.9,0.7-1.5,1c-0.5,0.2-1.1,0.4-2.4,0.4c-1.3,0.1-1.8,0.1-5.2,0.1c-3.4,0-3.8,0-5.2-0.1
+        	c-1.2-0.1-1.9-0.3-2.4-0.4c-0.6-0.2-1-0.5-1.5-1c-0.4-0.4-0.7-0.9-1-1.5c-0.2-0.5-0.4-1.1-0.4-2.4c-0.1-1.3-0.1-1.8-0.1-5.2
+        	c0-3.4,0-3.8,0.1-5.2c0.1-1.2,0.3-1.9,0.4-2.4c0.2-0.6,0.5-1,1-1.5s0.9-0.7,1.5-1c0.5-0.2,1.1-0.4,2.4-0.4
+        	C20,13.5,20.5,13.5,22.9,13.5L22.9,13.5z M30.8,15.6c-0.8,0-1.5,0.7-1.5,1.5c0,0.8,0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5
+        	C32.4,16.3,31.7,15.6,30.8,15.6L30.8,15.6z M17.4,24c0-3.6,2.9-6.6,6.6-6.6c3.6,0,6.6,2.9,6.6,6.6s-2.9,6.6-6.6,6.6
+        	C20.4,30.6,17.4,27.6,17.4,24z"/>
+        <path d="M24,19.7c2.4,0,4.3,1.9,4.3,4.3c0,2.4-1.9,4.3-4.3,4.3c-2.4,0-4.3-1.9-4.3-4.3C19.7,21.6,21.6,19.7,24,19.7z"/>
+        </svg>
+
+
+        <svg version="1.1" id="Pinterest" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+        <style type="text/css">
+        	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+        </style>
+
+
+        <g id="Page-1">
+        	<g id="Pinterest" transform="translate(-220.000000, -7399.000000)">
+        		<g id="icons" transform="translate(56.000000, 160.000000)">
+        			<path id="pinterest-_x5B__x23_180_x5D_" class="st0" d="M173.9,7239c-5.5,0-9.9,4.4-9.9,10c0,4.1,2.4,7.5,5.9,9.1
+        				c0-1.9,0-1.6,1.4-7.7c-0.8-1.6-0.2-4.2,1.6-4.2c2.4,0,0.8,3.6,0.5,5c-0.2,1.1,0.6,1.9,1.6,1.9c1.9,0,3.2-2.4,3.2-5.3
+        				c0-2.2-1.5-3.8-4.1-3.8c-4.6,0-5.7,5.1-4.1,6.7c0.4,0.6,0,0.6,0,1.4c-0.3,0.8-2.5-0.4-2.5-3.5c0-2.8,2.3-6.2,7.1-6.2
+        				c3.7,0,6.2,2.8,6.2,5.7c0,3.9-2.2,6.8-5.3,6.8c-1.1,0-2.1-0.6-2.4-1.3c-0.6,2.3-0.7,3.5-1.7,4.9c0.9,0.3,1.8,0.4,2.8,0.4
+        				c5.5,0,9.9-4.4,9.9-10C183.8,7243.4,179.4,7239,173.9,7239"/>
+        		</g>
+        	</g>
+        </g>
+        </svg>
+
+
+
+
+
+
+<a href="https://www.pinterest.at/sachagillen">
+
+  <img id="Pinterest" style="border: 0;"></a>
+
+<a href="https://www.pinterest.at/sachagillen">
+  <img id="Instagram"</a>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
